@@ -5,7 +5,7 @@ A machine learning-powered project to predict telecom customer churn using struc
 ---
 
 ##  Live Demo  
-[🔗 Streamlit App](https://customer-churn-prediction-ehz9rgvyd2anfhhaupfgap.streamlit.app/)
+[🔗 Streamlit App](https://customer-churn-prediction-8jcjuhhzuvkk4iosampzxm.streamlit.app/)
 
 ---
 
