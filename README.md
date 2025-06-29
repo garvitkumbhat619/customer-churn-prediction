@@ -15,6 +15,15 @@ To predict whether a customer will churn (i.e., stop using the service) based on
 
 ---
 
+##  Project Report
+
+A detailed analysis of the ML pipeline, model performance, and business insights.
+
+📄 **[Download Full Report (PDF)](customer_churn_report.pdf)**
+
+---
+
+
 ##  Machine Learning Approach
 
 ### Models Used:
