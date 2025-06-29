@@ -97,3 +97,11 @@ Top Predictive Features:
 ```bash
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
+2.     Install dependencies
+'''bash
+pip install -r requirements.txt
+cd customer-churn-prediction
+3.     Run the app
+'''bash
+streamlit run app.py
+cd customer-churn-prediction
