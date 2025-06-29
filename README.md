@@ -94,7 +94,6 @@ Top Predictive Features:
 ##  How to Run Locally
 
 1. Clone the repo
-```bash
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
 
