@@ -98,10 +98,10 @@ Top Predictive Features:
 git clone https://github.com/your-username/customer-churn-prediction.git
 cd customer-churn-prediction
 2.     Install dependencies
-'''bash
+```bash
 pip install -r requirements.txt
 cd customer-churn-prediction
 3.     Run the app
-'''bash
+```bash
 streamlit run app.py
 cd customer-churn-prediction
