@@ -51,10 +51,15 @@ for col in columns:
         input_df[col] = 0
 input_df = input_df[columns]
 
-# Predict
+# Predict with custom threshold
 if st.button("Predict Churn"):
-    prediction = model.predict(input_df)[0]
+    churn_proba = model.predict_proba(input_df)[0][1]
+    threshold = 0.3  # Custom threshold to improve recall
+    prediction = 1 if churn_proba > threshold else 0
+
+    st.write(f"🔍 **Churn Probability:** `{churn_proba:.2f}` (Threshold: {threshold})")
+
     if prediction == 1:
-        st.error("⚠️ Customer is likely to CHURN.")
+        st.error("⚠️ Customer is likely to **CHURN**.")
     else:
-        st.success("✅ Customer is likely to STAY.")
+        st.success("✅ Customer is likely to **STAY**.")
